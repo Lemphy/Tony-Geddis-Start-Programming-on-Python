@@ -1,3 +1,4 @@
+# 7.13 Магический шар
 import random
 
 def main():
