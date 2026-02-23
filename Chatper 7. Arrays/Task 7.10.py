@@ -1,3 +1,4 @@
+# 7.10 Чемпионы мировой серии
 def main():
     try:
         infile = open('WorldSeriesWinners.txt', 'r')
