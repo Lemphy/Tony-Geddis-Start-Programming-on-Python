@@ -1,3 +1,4 @@
+# 8.1 Инициалы
 def main():
     name = input("Введите ФИО:")
     print(create_initials(name))
