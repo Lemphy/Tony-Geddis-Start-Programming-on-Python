@@ -1,4 +1,4 @@
-# 9.4 Частота слов
+# 9.5 Частота слов
 def main():
     user_answer = get_user_answer()
     if user_answer == 1:
