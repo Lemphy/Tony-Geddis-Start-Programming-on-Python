@@ -1,3 +1,5 @@
+# 13.3 Калькулятор миль на галлон бензина
+
 import tkinter as tk
 
 class MyGui(tk.Tk):
