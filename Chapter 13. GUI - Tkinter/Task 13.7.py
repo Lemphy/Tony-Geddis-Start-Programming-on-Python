@@ -1,7 +1,6 @@
 # 13.7 Междугородные звонки
 
 import tkinter as tk
-import tkinter.messagebox
 
 class MyGui(tk.Tk):
     def __init__(self):
