@@ -1,3 +1,5 @@
+# 13.2 Переводчик с латинского
+
 import tkinter as tk
 
 class MyGui(tk.Tk):
