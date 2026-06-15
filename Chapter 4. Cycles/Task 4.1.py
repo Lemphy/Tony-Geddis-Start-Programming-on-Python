@@ -1,5 +1,4 @@
 # 4.1 Сборщик ошибок
-
 DAYS = 5
 total = 0
 for i in range(1, DAYS + 1):
