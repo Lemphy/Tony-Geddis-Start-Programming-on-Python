@@ -8,6 +8,7 @@ def create_file_with_values():
     outfile.close()
 
 def main():
+    create_file_with_values()
     outfile = open('numbers.txt', 'r', encoding='UTF-8')
     counter = 0
     total = 0
