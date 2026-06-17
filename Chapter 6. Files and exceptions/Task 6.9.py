@@ -22,10 +22,12 @@ def main():
         print(f'Файл {filename} не обнаружен')
     except ValueError:
         print(f'Некорректная строка в файле. Содержимое строки {counter}: {line}')
+        outfile.close()
     else:
         print(f"Общая сумма чисел: {total}\n"
               f"Количество чисел: {counter}\n"
               f"Среднее арифметическое: {total/counter}")
+        outfile.close()
 
 if __name__ == '__main__':
     main()
