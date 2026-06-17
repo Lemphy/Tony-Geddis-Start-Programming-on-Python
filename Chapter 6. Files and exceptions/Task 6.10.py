@@ -59,12 +59,11 @@ def main():
     except ValueError:
         print('Ошибка')
     else:
-        if mode == 1:
+        if mode == ENTER:
             enter_to_file()
-        elif mode == 2:
+        elif mode == CHECK_FILE:
             check_file()
-        else:
-            print('Завершение работы')
+        print('Завершение работы')
 
 if __name__ == '__main__':
     main()
